@@ -1,0 +1,3832 @@
+{
+    "buildProcess": [
+        {
+            "actionId": "636a56616066a1aab0b6d2d5",
+            "assets": [],
+            "description": "move to load/unload tool position",
+            "type": "MOVE.STATION.TOOL",
+            "uid": "f7b8af48-6195-4b8b-8469-f7419ed3d2e1"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d174",
+            "assets": [
+                {
+                    "description": "robot operator",
+                    "interface": "HMI",
+                    "uid": "human"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                },
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "load flange C drilling effector",
+            "type": "LOAD.EFFECTOR",
+            "uid": "ea8f8945-6811-4aba-a948-dfac7f22c4bb"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange front left works of rail y+1292",
+            "type": "MOVE.STATION.WORK",
+            "uid": "15717654-d715-4c40-bf57-fad8ddd8926d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d292",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange front left works of rail y+1292",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "c73ca625-9d40-4d9a-b8f3-c0f35a50ab91"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2e1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kff_y+1292",
+            "type": "WORK.PROBE",
+            "uid": "a1863aed-3f3e-432e-b1c3-41b2864e8635"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2b1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange front left works of rail y+1292 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "f69af21a-5863-4b18-9ad8-15ecbfa7bfa4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange rear left works of rail y+1292",
+            "type": "MOVE.STATION.WORK",
+            "uid": "73586894-18e1-4504-b65c-bf12b00b3311"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d293",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange rear left works of rail y+1292",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "a08e2249-db37-4447-a9fb-f4cfac5eb52d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2e2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kfr_y+1292",
+            "type": "WORK.PROBE",
+            "uid": "87d763ae-37ca-4a5c-9e21-9692e97d9043"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2b2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange rear left works of rail y+1292 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "0f84dca0-9ea3-460a-9db3-b2970b0dabca"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2cd",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange front left works of rail y+763",
+            "type": "MOVE.STATION.WORK",
+            "uid": "b5e9514b-62cb-4b4a-b463-4bf7c99de7f3"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d28f",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange front left works of rail y+763",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "4a84b689-bad7-4c4a-b71c-b6859c7e742a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2df",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kff_y+763",
+            "type": "WORK.PROBE",
+            "uid": "2e6afda0-0bde-4f7a-a967-6ac02c4b5717"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2ae",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange front left works of rail y+763 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "fefeea1e-7647-4de2-baf6-4017b55f440c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2ce",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange rear left works of rail y+763",
+            "type": "MOVE.STATION.WORK",
+            "uid": "fba33685-1596-4d3d-ab3a-3bd05e372028"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d290",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange rear left works of rail y+763",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "1b6a290c-6db2-4ed2-9554-a453fcc391d4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2e0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kfr_y+763",
+            "type": "WORK.PROBE",
+            "uid": "da74708a-4001-4281-a2e7-23318c02de2e"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2af",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange rear left works of rail y+763 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "c1a7a27f-a318-448d-8dbc-0e591ab67f73"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2c8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange front left works of rail y+254",
+            "type": "MOVE.STATION.WORK",
+            "uid": "242f7832-284d-4a0f-9d46-ce5205708329"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d28a",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange front left works of rail y+254",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "4e538d7a-2d9f-400e-9170-4ce5478d5047"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2dd",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kff_y+254",
+            "type": "WORK.PROBE",
+            "uid": "bfa98c01-0563-4512-8015-23f7bda6de5e"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2a9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange front left works of rail y+254 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "73627e98-1774-4981-bb40-50364980a765"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2c9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange rear left works of rail y+254",
+            "type": "MOVE.STATION.WORK",
+            "uid": "1a55a4e3-5a92-4d98-befe-a7a0bca685aa"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d28b",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange rear left works of rail y+254",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "b4e88981-3dd4-479b-ae0a-d9822c867976"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2de",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kfr_y+254",
+            "type": "WORK.PROBE",
+            "uid": "202657b9-7d88-464d-9334-e9896f912351"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2aa",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange rear left works of rail y+254 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "7ff45927-2a85-4b79-b543-a414032cda77"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2c4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange front left works of rail y-254",
+            "type": "MOVE.STATION.WORK",
+            "uid": "96df2be6-b797-42cf-b5f4-57ac090104e5"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d286",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange front left works of rail y-254",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "30e0efd8-3592-4bdd-a6e3-7b716cbf0bea"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2db",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kff_y-254",
+            "type": "WORK.PROBE",
+            "uid": "eab65a51-73c3-4bae-82b7-96006df7563f"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2a5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange front left works of rail y-254 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "9b0d0d2e-5ec6-496f-90bb-8a80a82b4be4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2c5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange rear left works of rail y-254",
+            "type": "MOVE.STATION.WORK",
+            "uid": "98b88e6f-970d-4789-8b60-dc51475c56c0"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d287",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange rear left works of rail y-254",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "0e8d34be-5560-4f5f-ad6f-ca21a812ea82"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2dc",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kfr_y-254",
+            "type": "WORK.PROBE",
+            "uid": "61b77880-a399-4586-82fc-c43e91b6b620"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2a6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange rear left works of rail y-254 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "aa5cefca-26ce-4d00-8d91-2a4308ab5d38"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2c1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange front left works of rail y-763",
+            "type": "MOVE.STATION.WORK",
+            "uid": "add2cd9f-5bd6-4436-85c2-6d03be8d82fc"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d283",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange front left works of rail y-763",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "4cae45ac-0a28-4a13-af63-7697c267f5c2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kff_y-763",
+            "type": "WORK.PROBE",
+            "uid": "42448f97-d63c-4ba8-9d3e-98ecd7801183"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2a2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange front left works of rail y-763 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "762a79c3-1350-4bd6-af41-8c8c036bcb14"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2c3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange rear left works of rail y-763",
+            "type": "MOVE.STATION.WORK",
+            "uid": "486f3a01-bc47-47e0-a53f-2b6ca81f757f"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d285",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange rear left works of rail y-763",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "0d0433d3-c197-4980-8728-73895a60ba6b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2da",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kfr_y-763",
+            "type": "WORK.PROBE",
+            "uid": "c4aed521-d566-4d6c-8f0c-43bc59d52cb4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2a4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange rear left works of rail y-763 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "2a96f4a7-e0ba-45f3-b2ac-a899a259f5e4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2be",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange front left works of rail y-1292",
+            "type": "MOVE.STATION.WORK",
+            "uid": "081f56f9-b3b5-4e25-8eef-b8ac01aac2ca"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d280",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange front left works of rail y-1292",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "d79d02d5-11a4-4ffd-9500-6757d41ef4d3"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kff_y-1292",
+            "type": "WORK.PROBE",
+            "uid": "788f74cc-1562-4795-83d7-941853a12767"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d29f",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange front left works of rail y-1292 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "be276219-66ce-4d24-906a-e9560ae8fd0d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2bf",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to station position for flange rear left works of rail y-1292",
+            "type": "MOVE.STATION.WORK",
+            "uid": "91ca54b1-5541-4e0b-97e1-874a65b17242"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d281",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for flange rear left works of rail y-1292",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "ce33cdcc-7727-41f5-8e31-4e6276baafbe"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "probing of reference kfr_y-1292",
+            "type": "WORK.PROBE",
+            "uid": "955ba91a-fa68-447b-9ad9-104835acbbef"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2a0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                }
+            ],
+            "description": "move from position in flange rear left works of rail y-1292 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "eb78701f-393b-4ae5-b412-970ab84fd5e8"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d5",
+            "assets": [],
+            "description": "move to load/unload tool position",
+            "type": "MOVE.STATION.TOOL",
+            "uid": "af06b8cb-5caf-45a5-a438-ffb93e483040"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d175",
+            "assets": [
+                {
+                    "description": "robot operator",
+                    "interface": "HMI",
+                    "uid": "human"
+                },
+                {
+                    "description": "C drilling effector for flange assemblies",
+                    "interface": "PROXY",
+                    "uid": "flange_c_drilling"
+                },
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "unload flange C drilling effector",
+            "type": "UNLOAD.EFFECTOR",
+            "uid": "54657898-1517-48fe-9aa3-74935c44d475"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d172",
+            "assets": [
+                {
+                    "description": "robot operator",
+                    "interface": "HMI",
+                    "uid": "human"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                },
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "load web C drilling effector",
+            "type": "LOAD.EFFECTOR",
+            "uid": "0e830209-0ee2-460e-bbff-02cfe82063ea"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2bb",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to station position for web works of rail y+1292",
+            "type": "MOVE.STATION.WORK",
+            "uid": "e6013c4f-aa38-4c48-bd9f-e30790f7126e"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d27d",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for web works of rail y+1292",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "571996de-4652-493e-8530-541183a1e527"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.39",
+            "type": "MOVE.TCP.WORK",
+            "uid": "1cb6c6a6-fdd4-45b4-96f3-c0216e8cda43"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ea",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.40",
+            "type": "MOVE.TCP.WORK",
+            "uid": "267aba1b-2252-42be-8c1c-27168886c811"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ec",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.42",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ecb621d3-2c7e-40e3-8a9d-4a2e69869ec3"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1eb",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.41",
+            "type": "MOVE.TCP.WORK",
+            "uid": "9e5faa54-10df-4aa8-938b-77da95eac458"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ed",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.43",
+            "type": "MOVE.TCP.WORK",
+            "uid": "2f160f36-3688-47e7-b66e-da379d9d9e8f"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ee",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.44",
+            "type": "MOVE.TCP.WORK",
+            "uid": "4a69d6fb-7f1d-4ae6-8894-277cd422b069"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ef",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.45",
+            "type": "MOVE.TCP.WORK",
+            "uid": "f464de9a-da92-464d-a031-99074539aba2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.46",
+            "type": "MOVE.TCP.WORK",
+            "uid": "03bea6f0-722e-4871-a12a-e3c8c71776d2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.47",
+            "type": "MOVE.TCP.WORK",
+            "uid": "22a46ea8-3838-430f-9ad0-aaff094c86e4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.48",
+            "type": "MOVE.TCP.WORK",
+            "uid": "5f659825-a23e-46a3-b474-f3be2f37848c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.49",
+            "type": "MOVE.TCP.WORK",
+            "uid": "416ad838-f478-4724-961a-a22656ccd5bb"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.50",
+            "type": "MOVE.TCP.WORK",
+            "uid": "7cb73cef-d81e-4ff9-93cc-a536cf50d884"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d202",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.44",
+            "type": "MOVE.TCP.WORK",
+            "uid": "bbf69c08-1bb8-4cd4-bbfe-ec40e0a7ba18"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d201",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.43",
+            "type": "MOVE.TCP.WORK",
+            "uid": "0d67cd8e-cb61-441a-8af6-81eaa38a2d86"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.52",
+            "type": "MOVE.TCP.WORK",
+            "uid": "29b70e81-4182-4f87-a748-0ad403209e1d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.51",
+            "type": "MOVE.TCP.WORK",
+            "uid": "8c4bc7b3-cdda-4a82-83f7-f348db92d310"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.54",
+            "type": "MOVE.TCP.WORK",
+            "uid": "104dd686-915a-48a1-ba9e-a4bd4fd7d1ab"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.53",
+            "type": "MOVE.TCP.WORK",
+            "uid": "893f4502-5462-4a21-93f6-4cfc4b89c655"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1fa",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.56",
+            "type": "MOVE.TCP.WORK",
+            "uid": "792cdb4c-b030-4fd8-b4ff-75e4f5b433df"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1f9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.55",
+            "type": "MOVE.TCP.WORK",
+            "uid": "c69af05e-5519-4eff-808c-2d147429a508"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1fc",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.58",
+            "type": "MOVE.TCP.WORK",
+            "uid": "25a49c27-f463-4c23-a2ba-d838066559c2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1fb",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.57",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e5e8bbae-3210-417a-a8fa-a5cce9b7a70a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1fe",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.60",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ab250137-0c68-4dc8-b6ed-effba1163cf7"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1fd",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.59",
+            "type": "MOVE.TCP.WORK",
+            "uid": "925f38ca-a709-4f6d-9c37-9a9e18248fa4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d200",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.62",
+            "type": "MOVE.TCP.WORK",
+            "uid": "73b08818-585d-4e68-b7da-1a7f718ce6b4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ff",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.61",
+            "type": "MOVE.TCP.WORK",
+            "uid": "4f7a029f-cf3b-41e1-a6d1-7ac8cf73748b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d29c",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move from position in web works of rail y+1292 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "934f2565-426c-4843-ad53-b3b5a4775540"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2ba",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to station position for web works of rail y+763",
+            "type": "MOVE.STATION.WORK",
+            "uid": "07535435-ca9a-4a9d-bf4e-eee94107cb17"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d27c",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for web works of rail y+763",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "c4b04fea-20f8-4d44-8d7d-ce2b1dd70e5c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.85",
+            "type": "MOVE.TCP.WORK",
+            "uid": "2e6c9881-4620-40a9-ae44-33d5a37537fe"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.84",
+            "type": "MOVE.TCP.WORK",
+            "uid": "9036c9f1-305b-4c4f-93b1-c6b767817e57"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.86",
+            "type": "MOVE.TCP.WORK",
+            "uid": "8c9b917c-b6a6-4b04-bd67-6259334fc8ba"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.83",
+            "type": "MOVE.TCP.WORK",
+            "uid": "33e43430-eac5-4eac-a0fe-984f68dcc61e"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.82",
+            "type": "MOVE.TCP.WORK",
+            "uid": "d4aef113-6f66-47f9-8cd0-775d3bdbf414"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.81",
+            "type": "MOVE.TCP.WORK",
+            "uid": "d11cce68-d038-445e-862d-7e765949285c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.80",
+            "type": "MOVE.TCP.WORK",
+            "uid": "56648236-77a8-4b31-8686-97691bbb3456"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1df",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.79",
+            "type": "MOVE.TCP.WORK",
+            "uid": "3edeb8dc-cb92-4991-b6a0-c0c1dd42e5e9"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1de",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.78",
+            "type": "MOVE.TCP.WORK",
+            "uid": "97293d87-1c35-4545-bca2-574a73f002c0"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1dd",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.77",
+            "type": "MOVE.TCP.WORK",
+            "uid": "79283aeb-5298-49c8-a3f3-daae6d067627"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1dc",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.76",
+            "type": "MOVE.TCP.WORK",
+            "uid": "d3f99ee9-c05c-47fd-bfaf-e1da4a008c6e"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1db",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.75",
+            "type": "MOVE.TCP.WORK",
+            "uid": "64c3e56f-6523-4e49-b47a-7c0e4189c310"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.70",
+            "type": "MOVE.TCP.WORK",
+            "uid": "d45a23d5-512f-4031-a8bf-4732c33b9e27"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1e7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.69",
+            "type": "MOVE.TCP.WORK",
+            "uid": "a6211826-9100-4249-8948-dd590a69e1a7"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1da",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.74",
+            "type": "MOVE.TCP.WORK",
+            "uid": "b2419bc2-7c12-4823-a22d-932f05326278"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.73",
+            "type": "MOVE.TCP.WORK",
+            "uid": "b364d665-7cbc-46bc-b093-aa0203a47daa"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.72",
+            "type": "MOVE.TCP.WORK",
+            "uid": "64b6ed66-1276-43a8-a5f4-9e362f2799ab"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.71",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ba64addf-3daf-4b02-84ec-014276227a36"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.70",
+            "type": "MOVE.TCP.WORK",
+            "uid": "31241f1c-f913-4f32-b4b4-8a3f3ed0ac38"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.69",
+            "type": "MOVE.TCP.WORK",
+            "uid": "59996097-2102-437a-be79-4a7495653480"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.68",
+            "type": "MOVE.TCP.WORK",
+            "uid": "0fc87e30-88d7-4971-b797-d918fcf1dd5d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.67",
+            "type": "MOVE.TCP.WORK",
+            "uid": "77e6acfc-c0cc-4033-9967-acdf5a500da9"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.66",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ca0a057e-0e4e-4942-8fcd-6ba6bf50d44a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.65",
+            "type": "MOVE.TCP.WORK",
+            "uid": "a665cbb9-d040-4f0c-931f-a491bb24aaf2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1d0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.64",
+            "type": "MOVE.TCP.WORK",
+            "uid": "abedaf40-eb02-44ed-b671-484138e4b4c0"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1cf",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.63",
+            "type": "MOVE.TCP.WORK",
+            "uid": "302c9521-801b-41de-8fa2-7e1229be18fa"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d29b",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move from position in web works of rail y+763 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "e9ec150a-a647-40b4-bd0c-af4221ded14c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2b9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to station position for web works of rail y+254",
+            "type": "MOVE.STATION.WORK",
+            "uid": "b4068d92-2594-442b-acf6-7930f36df42e"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d27b",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for web works of rail y+254",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "087f5b7c-07a4-4fa7-9837-b72eb6de84b8"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1cc",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.150",
+            "type": "MOVE.TCP.WORK",
+            "uid": "89e1cf4b-f184-4178-816f-482fbde7a604"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.147",
+            "type": "MOVE.TCP.WORK",
+            "uid": "cb6cb323-efa6-41bb-b426-d0f0fa18abd3"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1cb",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.149",
+            "type": "MOVE.TCP.WORK",
+            "uid": "df62824a-7aa5-4f15-b2ee-6b82b7ef353d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.146",
+            "type": "MOVE.TCP.WORK",
+            "uid": "4741a77c-58c7-406e-887a-61e8e09a1c7b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ca",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.148",
+            "type": "MOVE.TCP.WORK",
+            "uid": "4f7ab8a3-54b7-4b82-8be8-41062b850d22"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.145",
+            "type": "MOVE.TCP.WORK",
+            "uid": "92036414-e3ed-4a0f-9f0b-3e6059d0a228"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.144",
+            "type": "MOVE.TCP.WORK",
+            "uid": "93ab1569-eef0-4234-af38-b2db76291be6"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.143",
+            "type": "MOVE.TCP.WORK",
+            "uid": "810ab42a-c156-42f4-9de3-d0d7d55a0c9b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1cd",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.253",
+            "type": "MOVE.TCP.WORK",
+            "uid": "a4a0f9e1-bb20-43a3-8281-945b0a848b56"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ce",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.254",
+            "type": "MOVE.TCP.WORK",
+            "uid": "2ae48788-aa58-4e2a-bcea-7b85f364ac1b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.142",
+            "type": "MOVE.TCP.WORK",
+            "uid": "86668d71-3ae3-4eab-84a0-b56e87b4e3e7"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.138",
+            "type": "MOVE.TCP.WORK",
+            "uid": "c6ec8b53-cece-4ee9-b082-151edaa07492"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1bf",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.137",
+            "type": "MOVE.TCP.WORK",
+            "uid": "6eb2b3e3-4857-42c8-80cf-43d3594d2a55"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.139",
+            "type": "MOVE.TCP.WORK",
+            "uid": "748a9458-5d62-469f-bca2-a9a8e96f5cb6"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1be",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.136",
+            "type": "MOVE.TCP.WORK",
+            "uid": "9536ebee-8a06-4822-bf6c-3fd5a28b2597"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.140",
+            "type": "MOVE.TCP.WORK",
+            "uid": "351c9e0b-a584-477e-99da-aecd3a914a5a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1bd",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.135",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e08032b2-549c-453f-88e9-47747b0e1e59"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1c3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.141",
+            "type": "MOVE.TCP.WORK",
+            "uid": "1dd821e4-7fb6-40b9-a6a8-724975e89ee4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d29a",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move from position in web works of rail y+254 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "7623e29d-8ba9-41bd-a2e6-53a499100412"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2b8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to station position for web works of rail y-254",
+            "type": "MOVE.STATION.WORK",
+            "uid": "cb795baa-f456-4957-8c8b-88fe0f503301"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d27a",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for web works of rail y-254",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "7e7d4a45-f589-45cf-b486-5489806d5e79"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ba",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.166",
+            "type": "MOVE.TCP.WORK",
+            "uid": "983b6c21-6236-43e6-9879-cc43c0bde1a6"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.165",
+            "type": "MOVE.TCP.WORK",
+            "uid": "0b6e0b5f-3bc3-4c2a-9c9d-65ae5cabffe0"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.164",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e5cdb19c-4d73-46ac-b5b3-cfcd39c0722f"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.162",
+            "type": "MOVE.TCP.WORK",
+            "uid": "60d26320-14b6-4984-bfae-9cf3b5510896"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.163",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ebff61c1-abed-46c8-b9c6-a89e6c918c0a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.161",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626fae10-3930-4e64-a588-b1cc46f2b0cc"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.160",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e25b1e72-1bf6-4232-9ae4-d9377123ceaa"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.159",
+            "type": "MOVE.TCP.WORK",
+            "uid": "471ae1c0-ab30-45cf-b1f7-3ea29767bc79"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1bc",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.156",
+            "type": "MOVE.TCP.WORK",
+            "uid": "b81f9d51-60ba-489f-a5f7-fc5975d8155b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1bb",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.155",
+            "type": "MOVE.TCP.WORK",
+            "uid": "dd2e9cf4-7186-4659-86c5-cd454899403a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.158",
+            "type": "MOVE.TCP.WORK",
+            "uid": "a4aef62f-9fe3-493b-bacc-62719308c81f"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ae",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.154",
+            "type": "MOVE.TCP.WORK",
+            "uid": "272dff6d-59c8-4c0b-bc63-03a6f3a38f92"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ad",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.153",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ef53e11a-06d5-4207-8bba-e73915b0c8d5"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1af",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.155",
+            "type": "MOVE.TCP.WORK",
+            "uid": "634ad17a-92c8-4640-8445-a877905b222c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ac",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.152",
+            "type": "MOVE.TCP.WORK",
+            "uid": "81843599-dd6c-4468-a4bd-c9108a91ecb2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.156",
+            "type": "MOVE.TCP.WORK",
+            "uid": "542b6e13-ef7f-46c8-838a-eca295735eaf"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1ab",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.151",
+            "type": "MOVE.TCP.WORK",
+            "uid": "43d8fd2a-3d08-4b4b-aeca-28fa1a502b11"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1b1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.157",
+            "type": "MOVE.TCP.WORK",
+            "uid": "fc5d5c8f-be2e-4cbd-b711-936f9ebfa5f7"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d299",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move from position in web works of rail y-254 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "9fad4a92-4bc2-4be0-a729-d4a77b8eeae5"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2b7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to station position for web works of rail y-763",
+            "type": "MOVE.STATION.WORK",
+            "uid": "2b1ce449-680b-4da7-9786-dd2e82cb4ab1"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d279",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for web works of rail y-763",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "eeb4ca2d-0dd5-49b2-abfb-f55944e736df"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a8",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.134",
+            "type": "MOVE.TCP.WORK",
+            "uid": "fe0b9cd8-35a0-4a83-bc9c-4f8f95fd1fbb"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a7",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.133",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ccac6e2f-f7c9-4374-9d60-02e4a5d9ccd4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.132",
+            "type": "MOVE.TCP.WORK",
+            "uid": "74847bdc-0f5a-4093-a918-4f688f50ad7b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a3",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.129",
+            "type": "MOVE.TCP.WORK",
+            "uid": "42c45d6e-7647-4197-adb9-2ec2e1610a79"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a4",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.130",
+            "type": "MOVE.TCP.WORK",
+            "uid": "dc4fab9d-21ca-47c0-bc45-691042b6ba2a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a2",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.128",
+            "type": "MOVE.TCP.WORK",
+            "uid": "c6fbc80b-5798-49d8-a653-345ea86eea42"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a5",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.131",
+            "type": "MOVE.TCP.WORK",
+            "uid": "5b6128bb-bda3-43ce-9524-870d9b964685"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a1",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.127",
+            "type": "MOVE.TCP.WORK",
+            "uid": "04b723ac-9d4f-46d6-b4ca-fd0cededd843"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a0",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.126",
+            "type": "MOVE.TCP.WORK",
+            "uid": "c3034489-fd84-4638-bc2e-8fac22357393"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d19f",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.125",
+            "type": "MOVE.TCP.WORK",
+            "uid": "d5a7c534-4b5f-41aa-a801-88cbab66ad18"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d19e",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.124",
+            "type": "MOVE.TCP.WORK",
+            "uid": "1141ced6-8c11-4b72-9519-352a1e0e5559"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d19d",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.123",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ddf64a2c-143d-4f53-ad23-c5e33024a023"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1aa",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.122",
+            "type": "MOVE.TCP.WORK",
+            "uid": "572116c0-7e3d-47c6-b2f6-c0753b28bd88"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d1a9",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.121",
+            "type": "MOVE.TCP.WORK",
+            "uid": "081b10fa-0872-416e-bb88-1452648398f4"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d19c",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.122",
+            "type": "MOVE.TCP.WORK",
+            "uid": "fcde334f-26c5-4d95-bbcb-ced4a2725939"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d19b",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.121",
+            "type": "MOVE.TCP.WORK",
+            "uid": "cbb1b9e1-fda6-44d5-adb6-695c53644fcd"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d19a",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.120",
+            "type": "MOVE.TCP.WORK",
+            "uid": "1d8cf4d5-0314-4c61-b7c5-c8a48596c304"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d199",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.119",
+            "type": "MOVE.TCP.WORK",
+            "uid": "7a41bd63-1948-489c-91d8-0957f2a11886"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d198",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.118",
+            "type": "MOVE.TCP.WORK",
+            "uid": "6fe7a16b-b431-44c6-be70-dea0f77e2060"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d197",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.117",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e183d0bb-a8cf-4ebd-93ae-6ab5999868be"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d196",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.116",
+            "type": "MOVE.TCP.WORK",
+            "uid": "2fe2e3c4-d74a-4f84-91b4-888300efe4d2"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d195",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.115",
+            "type": "MOVE.TCP.WORK",
+            "uid": "9058efe0-b62b-4a33-b546-36e4ba0aaa71"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d193",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.113",
+            "type": "MOVE.TCP.WORK",
+            "uid": "9dcef482-0e10-48b5-a1c2-338e1d37ac18"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d194",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.114",
+            "type": "MOVE.TCP.WORK",
+            "uid": "8593826a-737b-4a44-9535-42539a88f276"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d192",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.112",
+            "type": "MOVE.TCP.WORK",
+            "uid": "7f25e681-0df9-46c0-96a6-98aaf45dd786"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d191",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.111",
+            "type": "MOVE.TCP.WORK",
+            "uid": "8a810842-6549-48a3-a02a-c0301ef8d32d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d298",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move from position in web works of rail y-763 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "57edd9b5-62db-491e-b415-4e5e556e584b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2b6",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to station position for web works of rail y-1292",
+            "type": "MOVE.STATION.WORK",
+            "uid": "3466b80e-f7d2-49ee-ae11-1e1726e9ccf7"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d278",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to the approach position for web works of rail y-1292",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "1a22f910-cad4-4b95-b3ce-9ce6cc9ff3b6"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d181",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.110",
+            "type": "MOVE.TCP.WORK",
+            "uid": "1ed5b2af-99df-4e3a-980b-e6efc3012b13"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d180",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.109",
+            "type": "MOVE.TCP.WORK",
+            "uid": "cbb1767d-eb0b-461b-b567-0477fe381682"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d17f",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.108",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e6fc52d5-e1df-4d8d-9903-eb64d4590a9b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d17e",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.107",
+            "type": "MOVE.TCP.WORK",
+            "uid": "8219b587-df9d-4c13-9d15-82ea2a0b7c0d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d17d",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.106",
+            "type": "MOVE.TCP.WORK",
+            "uid": "aa4c2d37-75a7-4f24-8618-d2c78ad9a0e9"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d17c",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.105",
+            "type": "MOVE.TCP.WORK",
+            "uid": "cebd6567-337f-45e5-a58a-b155bfd43983"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d17b",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.104",
+            "type": "MOVE.TCP.WORK",
+            "uid": "fad22145-df4f-48ff-9c6f-8a4e45f8bc18"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d17a",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.103",
+            "type": "MOVE.TCP.WORK",
+            "uid": "d3abf86b-3dd8-4b5a-8542-925fa14b0f52"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d179",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.102",
+            "type": "MOVE.TCP.WORK",
+            "uid": "014439f9-6726-4a35-8491-7437c19e3e8c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d178",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.101",
+            "type": "MOVE.TCP.WORK",
+            "uid": "90162771-16fc-46de-9a0b-283fe97f1a21"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d177",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.100",
+            "type": "MOVE.TCP.WORK",
+            "uid": "b286caab-9963-42f9-aa64-da67ea10f624"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d18e",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.99",
+            "type": "MOVE.TCP.WORK",
+            "uid": "336f6694-805e-4c09-bec5-c2f39eb4418c"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d190",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.96",
+            "type": "MOVE.TCP.WORK",
+            "uid": "fe050cdd-c66f-4453-9f03-163a38f38a2d"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d18f",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on en6115v3-4.95",
+            "type": "MOVE.TCP.WORK",
+            "uid": "a0a841a7-95da-430d-a872-9c0c2233dd01"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d18d",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.98",
+            "type": "MOVE.TCP.WORK",
+            "uid": "ad70577f-116a-4025-99b4-a64c4aa6609b"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d18c",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.97",
+            "type": "MOVE.TCP.WORK",
+            "uid": "1b6c448f-216b-424e-b77a-8462031dd0ef"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d18b",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.96",
+            "type": "MOVE.TCP.WORK",
+            "uid": "4b2db850-4481-4657-894e-6e2a12dd0e15"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d18a",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.95",
+            "type": "MOVE.TCP.WORK",
+            "uid": "bb78bf65-5363-43b3-9f5e-75b05061c9cc"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d189",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.94",
+            "type": "MOVE.TCP.WORK",
+            "uid": "fccbd723-63b3-4ed9-96ab-f6472bd20206"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d188",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.93",
+            "type": "MOVE.TCP.WORK",
+            "uid": "84c45478-6fa7-436e-8309-90dad83a06fb"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d187",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.92",
+            "type": "MOVE.TCP.WORK",
+            "uid": "e62fcf8b-8b72-401b-baf1-06e178a6f217"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d186",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.91",
+            "type": "MOVE.TCP.WORK",
+            "uid": "5a64fb2f-4220-497c-9beb-e0b8870f82a8"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d185",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.90",
+            "type": "MOVE.TCP.WORK",
+            "uid": "c3af1043-fd8b-4616-9a19-893e53d44d5a"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d184",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.89",
+            "type": "MOVE.TCP.WORK",
+            "uid": "baa02d8d-483b-4d9d-abbf-6e776b5aad11"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d183",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.88",
+            "type": "MOVE.TCP.WORK",
+            "uid": "88a11a9c-a0bc-4ce2-821d-84706eaa4889"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d182",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move to position for works on asna2392-3-04.87",
+            "type": "MOVE.TCP.WORK",
+            "uid": "03febb1c-9b22-451d-9f82-fcb564811bbb"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d297",
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                }
+            ],
+            "description": "move from position in web works of rail y-1292 to arm move station position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "9e7c350d-6833-4ae2-a23c-faa45104d704"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d5",
+            "assets": [],
+            "description": "move to load/unload tool position",
+            "type": "MOVE.STATION.TOOL",
+            "uid": "768a2f71-a145-4d07-8323-9cb99c4af354"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d173",
+            "assets": [
+                {
+                    "description": "robot operator",
+                    "interface": "HMI",
+                    "uid": "human"
+                },
+                {
+                    "description": "C drilling effector for web assemblies",
+                    "interface": "PROXY",
+                    "uid": "web_c_drilling"
+                },
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "unload web C drilling effector",
+            "type": "UNLOAD.EFFECTOR",
+            "uid": "48e6ccd7-dd16-49b4-bfb9-5cf774153ef7"
+        },
+        {
+            "actionId": "636a56616066a1aab0b6d2d4",
+            "assets": [],
+            "description": "move to home position",
+            "type": "MOVE.STATION.HOME",
+            "uid": "b4504b07-e92d-4bd1-9237-8a5080a133d9"
+        }
+    ]
+}
