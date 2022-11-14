@@ -5,15 +5,18 @@ function CardView(props) {
   
   const buildprocess = props.buildprocess;
   const status = props.status;
-
-  const sequence = buildprocess.map((action)=>{
+  
+  let sequence = undefined;
+  if(buildprocess) {
+    sequence = buildprocess.map((action)=>{
     return (
       <ActionCard 
         key={action.uid}
         action={action}
-        status={status[action.uid]}/>
+        status={status(action.uid)}/>
     )
-  });
+    });
+  }
 
   return (
     <Stack spacing={1.5} padding={1.5}>

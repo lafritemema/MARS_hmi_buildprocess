@@ -1,12 +1,11 @@
 
 export function* actionGroupGenerator(
-    actions,
-    status) {
+    actions) {
   
   let i = 0;
 
   let alist=[];
-  let slist=[];
+  // let slist=[];
 
   let actor = actions[0] ?
       getActor(actions[0].assets) :
@@ -18,14 +17,14 @@ export function* actionGroupGenerator(
     
     if(currentActor === actor) {
       alist.push(actions[i]);
-      slist.push(status[actions[i].uid]);
+      // slist.push(status[actions[i].uid]);
     } else {
       yield {actor: actor,
              actions:alist,
-             status:slist}
+             /*status:slist*/}
           
       alist = [actions[i]];
-      slist = [status[actions[i].uid]];
+      // slist = [status[actions[i].uid]];
       
       actor = currentActor;
     }

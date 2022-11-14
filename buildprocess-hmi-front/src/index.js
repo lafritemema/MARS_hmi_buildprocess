@@ -3,19 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import bp from './bp.json'
 
-const buildProcess = bp.buildProcess;
-const obj = {};
-
-buildProcess.forEach((action)=>{
-  obj[action.uid] = 'todo';
-});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App  buildprocess={bp.buildProcess} status={obj}/>
+    <App  endpoint={process.env.REACT_APP_BACKENDPOINT}/>
   </React.StrictMode>
 );
 

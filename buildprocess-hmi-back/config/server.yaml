@@ -1,3 +1,5 @@
-redis:
-  host: debianvm
-  
+default:
+  redis:
+    host: 'debianvm'
+    port: 6379
+    database: 0

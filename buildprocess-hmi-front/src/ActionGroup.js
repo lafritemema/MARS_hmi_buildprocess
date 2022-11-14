@@ -18,6 +18,7 @@ function ActionGroup(props) {
   const index = props.index;
   const onChange = props.onChange;
   const expanded = props.expanded;
+  const status = props.status;
 
   const [progress, setProgress] = useState(0)
 
@@ -44,19 +45,19 @@ function ActionGroup(props) {
   }
 
   useEffect(()=>{
-    const progressMap = group.status.map((status)=>status === 'done');
+    const progressMap = group.actions.map((action)=>status(action.uid) === 'done');
     const progress = progressMap.reduce((previous, current) => {
       return previous + current;
     }, false);
     setProgress(progress);
-  }, [group.status])
+  }, [status])
 
   const sx = {
-    title: { width:'20em', flexShrink: 0 },
+    title: { width:'10em', flexShrink: 0 },
     secondary: { color: 'text.secondary' }
   }
 
-  const getStatus = (status) => {
+  const getIconStatus = (status) => {
     switch(status) {
       case 'inprogress':
         return <CircularProgress />;
@@ -80,7 +81,7 @@ function ActionGroup(props) {
             {action.type}
           </Typography>
         </Tooltip>
-        {getStatus(group.status[index])}
+        {getIconStatus(status(action.uid))}
       </Stack>
     );
   });
@@ -102,13 +103,13 @@ function ActionGroup(props) {
               {getTitle(group.actor)}
             </Typography>
             <Typography sx={sx.secondary}>
-              N° de taches: {group.status.length}
+              N° de taches: {group.actions.length}
             </Typography>
           </Stack>
         </Stack>
         <CircularProgress
           variant="determinate"
-          value={(progress/group.status.length)*100} />
+          value={(progress/group.actions.length)*100} />
       </AccordionSummary>
       <AccordionDetails>
         <Stack maxHeight='30em' overflow='auto'>
