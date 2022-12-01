@@ -7,20 +7,12 @@ import { Accordion,
   Tooltip,
   Fab} from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useEffect, useState } from "react";
+import React from "react";
 import CheckIcon from '@mui/icons-material/Check'
 import PersonIcon from '@mui/icons-material/Person'
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 
-function ActionGroup(props) {
-
-  const group = props.group;
-  const index = props.index;
-  const onChange = props.onChange;
-  const expanded = props.expanded;
-  const status = props.status;
-
-  const [progress, setProgress] = useState(0)
+function ActionGroup({group, index, onChange, expanded}) {
 
   const getTitle = (actor) => {
     switch(actor) {
@@ -44,14 +36,6 @@ function ActionGroup(props) {
     }
   }
 
-  useEffect(()=>{
-    const progressMap = group.actions.map((action)=>status(action.uid) === 'done');
-    const progress = progressMap.reduce((previous, current) => {
-      return previous + current;
-    }, false);
-    setProgress(progress);
-  }, [status])
-
   const sx = {
     title: { width:'10em', flexShrink: 0 },
     secondary: { color: 'text.secondary' }
@@ -68,6 +52,17 @@ function ActionGroup(props) {
     }
   }
 
+  const getProgress = () => {
+    // get the map of progress
+    const progressMap = group.actions.map((action)=> action.status === 'done');
+    // count the num of done
+    const progress = progressMap.reduce((previous, current) => {
+      return previous + current;
+    }, false);
+    // return the number
+    return progress 
+  }
+
   const actions = group.actions.map((action, index)=>{
     return (
       <Stack 
@@ -81,7 +76,7 @@ function ActionGroup(props) {
             {action.type}
           </Typography>
         </Tooltip>
-        {getIconStatus(status(action.uid))}
+        {getIconStatus(action.status)}
       </Stack>
     );
   });
@@ -109,7 +104,7 @@ function ActionGroup(props) {
         </Stack>
         <CircularProgress
           variant="determinate"
-          value={(progress/group.actions.length)*100} />
+          value={(getProgress / group.actions.length) *100} />
       </AccordionSummary>
       <AccordionDetails>
         <Stack maxHeight='30em' overflow='auto'>

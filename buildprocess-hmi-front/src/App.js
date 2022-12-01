@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CardView from './CardView'
 import GroupView from './GroupView'
 import { FormControlLabel, Switch } from '@mui/material';
@@ -24,7 +24,7 @@ function App(props) {
   */
 
   // init state for builprocess status
-  const [buildProcess, setBuildProcess] = useState(null);
+  const [buildProcess, setBuildProcess] = useState([]);
   const [progress, setProgress] = useState({
     currentAction:null,
     doneActions:[],
@@ -36,23 +36,6 @@ function App(props) {
   const [sequenceView, setSequenceView] = useState(undefined);
   
 
-  const initData = (buildProcess,
-    doneActions,
-    currentAction)=>{
-    const progress = {}
-    
-    /*doneActions.forEach((uid)=>{
-      progress[uid] = 'done';
-    })*/
-
-    // progress[currentAction] = 'inprogress';
-
-    setBuildProcess(buildProcess);
-    setProgress({currentAction:currentAction,
-      doneActions:doneActions})
-  }
-
-  // 
   useEffect(() => {
     if(socket) {
         
@@ -61,22 +44,21 @@ function App(props) {
         const {buildProcess,
             doneActions,
             currentAction} = stateObject;
-        initData(buildProcess, doneActions, currentAction);
+        setBuildProcess(buildProcess ? buildProcess : []);
+        setProgress({currentAction:currentAction,
+              doneActions: doneActions ? doneActions : []})
       });
 
       socket.on('progressUpdate', (progress) => {
-        console.log(progress)
-        setProgress(progress)
+        const {currentAction, doneActions} = progress
+        setProgress({currentAction:currentAction,
+          doneActions: doneActions ? doneActions : []})
       });
 
       socket.on('buildProcessUpdate', (buildProcess)=>{
-        setBuildProcess(buildProcess);
+        setBuildProcess(buildProcess ? buildProcess : []);
       });
       
-      /*socket.on('currentUpdate', (currentId)=>{
-        console.log(`next action : ${currentId}`)
-        setCurrentAction(currentId);
-      });*/
 
       // on connect emit getStates
       // to get build process status
@@ -113,33 +95,26 @@ function App(props) {
     }
   }, []);
 
-
-  useEffect(()=>{
-    if (expanded) {
-      setSequenceView(<CardView
-          buildprocess={buildProcess}
-          status={getStatus} />);
-    } else {
-      setSequenceView(<GroupView
-        buildprocess={buildProcess}
-        status={getStatus} />);
-    }
-  }, [expanded, buildProcess, progress]);
-
   const expandView = ()=>{
     setExpanded(!expanded);
   }
 
-  const getStatus = (actionId) =>{
-    if (actionId === progress.currentAction){
-      return 'inprogress'
-    } else if (progress.doneActions.indexOf(actionId)>-1) {
-      return 'done'
-    }
+
+  const getCompletedBP= () => {
+    let cbp = []
+    buildProcess.forEach((action)=>{
+      let status = undefined;
+      if (action.uid == progress.currentAction){
+        status = 'inprogress'
+      }
+      else if (progress.doneActions.indexOf(action.uid)>-1){
+        status = 'done'
+      }
+      cbp.push({...action, status: status});
+    });
+    return cbp;
   }
-
-
-
+  
   return (
     <div>
        <FormControlLabel control={
@@ -148,9 +123,9 @@ function App(props) {
                     onChange={expandView}
                     inputProps={{ 'aria-label': 'controlled' }}/>}
                 label = "DEVELOPPER" />
-      {sequenceView}
+      { expanded ? <CardView buildprocess={getCompletedBP} /> : <GroupView buildprocess={getCompletedBP} />}
     </div>
-  )
+  );
 }
 
 export default App;

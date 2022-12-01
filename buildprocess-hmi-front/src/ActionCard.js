@@ -6,9 +6,7 @@ import {Typography,
   CircularProgress, 
   Fab} from "@mui/material";
 
-function ActionCard(props) {
-  const action = props.action;
-  const astatus = props.status
+function ActionCard({action}) {
   
   const sx = {
     padding: 1.5
@@ -49,7 +47,7 @@ function ActionCard(props) {
             {assets}
           </Stack>
         </Stack>
-        {getStatus(astatus)}
+        {getStatus(action.status)}
       </Stack>
     </Card>
   );
