@@ -116,14 +116,20 @@ function App(props) {
   }
   
   return (
-    <div>
+    <div >
        <FormControlLabel control={
                 <Switch
                     checked={expanded}
                     onChange={expandView}
                     inputProps={{ 'aria-label': 'controlled' }}/>}
-                label = "DEVELOPPER" />
-      { expanded ? <CardView buildprocess={getCompletedBP} /> : <GroupView buildprocess={getCompletedBP} />}
+                label = "UNCOLLAPSE" />
+      <div className='buildprocess'>
+        <div className='view'>
+          { expanded ? 
+            <CardView buildprocess={getCompletedBP()}/> : 
+            <GroupView buildprocess={getCompletedBP()}/>}
+        </div>
+      </div>
     </div>
   );
 }

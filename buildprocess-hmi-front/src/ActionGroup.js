@@ -89,7 +89,7 @@ function ActionGroup({group, index, onChange, expanded}) {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
           id="panel2bh-header">
-        <Stack direction='row' spacing={2.5}>
+        <Stack direction='row' spacing={2.5} sx={{alignContent:'middle'}}>
           <Fab>
              {getIcon(group.actor)}
           </Fab>
@@ -101,10 +101,10 @@ function ActionGroup({group, index, onChange, expanded}) {
               N° de taches: {group.actions.length}
             </Typography>
           </Stack>
-        </Stack>
-        <CircularProgress
+          <CircularProgress
           variant="determinate"
-          value={(getProgress / group.actions.length) *100} />
+          value={(getProgress() / group.actions.length) *100} />
+        </Stack>
       </AccordionSummary>
       <AccordionDetails>
         <Stack maxHeight='30em' overflow='auto'>

@@ -35,7 +35,7 @@ function ActionCard({action}) {
           spacing={5}
           alignContent='center'
           alignItems='center'>
-        <Stack spacing={2} width='30em'>
+        <Stack spacing={2} width='80%'>
           <Typography component="div" variant="h5">
             {action.type}
           </Typography>
